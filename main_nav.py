@@ -1,5 +1,10 @@
+import rospy
+
 import cell
+import grid
 
-c = cell.Cell()
+#rospy.init_node("edu_nav")
 
-c.say()
+g = grid.Grid()
+
+print(g)
